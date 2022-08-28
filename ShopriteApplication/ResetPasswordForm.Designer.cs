@@ -68,13 +68,14 @@
             // 
             this.label8.AutoSize = true;
             this.label8.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label8.Location = new System.Drawing.Point(894, 9);
+            this.label8.Location = new System.Drawing.Point(847, 28);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 38);
+            this.label8.Size = new System.Drawing.Size(66, 25);
             this.label8.TabIndex = 29;
-            this.label8.Text = "x";
+            this.label8.Text = "Login";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label6
             // 
@@ -182,7 +183,7 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label1.Location = new System.Drawing.Point(460, 19);
+            this.label1.Location = new System.Drawing.Point(423, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(282, 38);
             this.label1.TabIndex = 20;

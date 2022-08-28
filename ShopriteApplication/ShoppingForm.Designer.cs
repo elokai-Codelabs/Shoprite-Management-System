@@ -94,7 +94,7 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Location = new System.Drawing.Point(69, 32);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1188, 865);
+            this.panel1.Size = new System.Drawing.Size(1234, 865);
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -556,22 +556,22 @@
             this.label11.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label11.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label11.Location = new System.Drawing.Point(1296, 59);
+            this.label11.Location = new System.Drawing.Point(1329, 40);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(90, 28);
             this.label11.TabIndex = 65;
             this.label11.Text = "Logout";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
-            // SellingForm
+            // ShoppingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1412, 918);
+            this.ClientSize = new System.Drawing.Size(1445, 918);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "SellingForm";
+            this.Name = "ShoppingForm";
             this.Text = "SellingForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

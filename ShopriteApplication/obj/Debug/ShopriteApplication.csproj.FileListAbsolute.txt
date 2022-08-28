@@ -41,3 +41,4 @@ C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\Sh
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.LoaderForm.resources
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.UsersForm.resources
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.ShoppingForm.resources
+C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.Dashboard.resources

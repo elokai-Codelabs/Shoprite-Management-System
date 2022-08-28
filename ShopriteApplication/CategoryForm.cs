@@ -186,5 +186,45 @@ namespace ShopriteApplication
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                string connection = "server=localhost;user id = root;password =;database=shopriteapplication";
+                MySqlConnection mySqlConn = new MySqlConnection(connection);
+
+                string search = textBox1.Text;
+                MySqlCommand cmd = new MySqlCommand("select * from category where CONCAT(NAME,ID) like '%" + textBox1.Text + "%' ", mySqlConn);
+                mySqlConn.Open();
+                MySqlDataReader rd;
+                rd = cmd.ExecuteReader();
+                if (rd.Read())
+                {
+                    idField.Text = rd.GetValue(0).ToString();
+                    nameField.Text = rd.GetValue(1).ToString();
+                    descriptionField.Text = rd.GetValue(2).ToString();
+                    //rd.Close();
+                    if (String.IsNullOrWhiteSpace(textBox1.Text))
+                    {
+                        idField.Text = "";
+                        nameField.Text = "";
+                    }
+
+                }
+                else
+                {
+                    rd.Close();
+                    textBox1.Clear();
+                }
+                //rd.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+           
+            
+        }
     }
 }

@@ -21,5 +21,12 @@ namespace ShopriteApplication
         {
 
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            var LoginForm = new LoginForm();
+            LoginForm.Show();
+            this.Hide();
+        }
     }
 }

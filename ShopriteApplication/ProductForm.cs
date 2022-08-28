@@ -80,26 +80,7 @@ namespace ShopriteApplication
 
             conn.Close();
         }
-        public void fillFiltercombo()
-        {
-            string connection = "server=localhost;user id = root;password =;database=shopriteapplication";
-            MySqlConnection conn = new MySqlConnection(connection);
-            conn.Open();
-            MySqlCommand cmd = new MySqlCommand("SELECT DISTINCT NAME from category", conn);
-            MySqlDataReader dr;
-            dr = cmd.ExecuteReader();
-            DataTable dt = new DataTable();
-            dt.Columns.Add("Name", typeof(string));
-            dt.Load(dr);
-            //FOR FILTER COMBO BOX
-            filterCB.ValueMember = "Name";
-            filterCB.DataSource = dt;
-
-            conn.Close();
-        }
-
-
-        
+                
         private void ProductForm_Load(object sender, EventArgs e)
         {
             //PUSH DB DATA TO GRIDVIEW START
@@ -116,7 +97,7 @@ namespace ShopriteApplication
 
             conn.Close();
             fillcombo();
-            fillFiltercombo();
+            
 
             //change date format
             prodDate.CustomFormat = "yyyy-MM-dd";
@@ -181,13 +162,19 @@ namespace ShopriteApplication
             //DELETE PRODUCT FROM DATABASE
             try
             {
-                if (prodId.Text == "")
+                if (String.IsNullOrEmpty(prodId.Text))
                 {
-                    MessageBox.Show("Select a category before you can delete ");
-
+                    MessageBox.Show("Please specify The ID you want to delete", "?", 0, MessageBoxIcon.Error);
+                    prodId.Focus();
+                    return;
                 }
-                else
+                
+                if (MessageBox.Show("Are you sure you want to delete ?", "?", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                 {
+                    //MessageBox.Show("Select a category before you can delete ");
+
+
+
                     string connection = "server=localhost;user id = root;password =;database=shopriteapplication";
                     string query = "DELETE FROM product WHERE ID ='" + this.prodId.Text + "' ";
                     MySqlConnection conn = new MySqlConnection(connection);
@@ -197,6 +184,7 @@ namespace ShopriteApplication
                     MessageBox.Show("Deleted successfully ");
                     conn.Close();
                 }
+            
             }
             catch (Exception ex)
             {
@@ -227,5 +215,55 @@ namespace ShopriteApplication
             prodCb.Text = prodGridView.SelectedRows[0].Cells[5].Value.ToString();
             
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                string connection = "server=localhost;user id = root;password =;database=shopriteapplication";
+                MySqlConnection mySqlConn = new MySqlConnection(connection);
+
+                string search = textBox1.Text;
+                MySqlCommand cmd = new MySqlCommand("select * from product where CONCAT(NAME,ID) like '%" + textBox1.Text + "%' ", mySqlConn);
+                mySqlConn.Open();
+                MySqlDataReader rd;
+                rd = cmd.ExecuteReader();
+                if (rd.Read())
+                {
+                    prodId.Text = rd.GetValue(0).ToString();
+                    prodName.Text = rd.GetValue(1).ToString();
+                    prodQty.Text = rd.GetValue(2).ToString();
+                    prodPrice.Text = rd.GetValue(3).ToString();
+                    prodDate.Text = rd.GetValue(4).ToString();
+
+                    expDate.Text = rd.GetValue(5).ToString();
+                    prodCb.Text = rd.GetValue(6).ToString();
+                    //rd.Close();
+                    if (String.IsNullOrWhiteSpace(textBox1.Text))
+                    {
+                        prodId.Text = "";
+                        prodName.Text = "";
+                        prodQty.Text = "";
+                        prodDate.Text = "";
+                        expDate.Text = "";
+                        prodCb.Text = "";
+                    }
+
+                }
+                else
+                {
+                    rd.Close();
+                    textBox1.Clear();
+                }
+                //rd.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+
+        }
+    
     }
 }
