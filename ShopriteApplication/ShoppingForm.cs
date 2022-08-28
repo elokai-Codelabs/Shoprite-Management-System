@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ShopriteApplication
 {
-    public partial class SellingForm : Form
+    public partial class ShoppingForm : Form
     {
-        public SellingForm()
+        public ShoppingForm()
         {
             InitializeComponent();
         }
@@ -20,6 +20,13 @@ namespace ShopriteApplication
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            var LoginForm = new LoginForm();
+            LoginForm.Show();
+            this.Hide();
         }
     }
 }

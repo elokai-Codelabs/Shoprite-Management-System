@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ShopriteApplication
 {
-    public partial class Loader : Form
+    public partial class LoaderForm : Form
     {
-        public Loader()
+        public LoaderForm()
         {
             InitializeComponent();
         }

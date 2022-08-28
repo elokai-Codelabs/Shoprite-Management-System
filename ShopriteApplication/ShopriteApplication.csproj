@@ -102,17 +102,17 @@
     <Compile Include="CategoryForm.Designer.cs">
       <DependentUpon>CategoryForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Loader.cs">
+    <Compile Include="LoaderForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Loader.Designer.cs">
-      <DependentUpon>Loader.cs</DependentUpon>
+    <Compile Include="LoaderForm.Designer.cs">
+      <DependentUpon>LoaderForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ProductForm.cs">
       <SubType>Form</SubType>
@@ -128,26 +128,26 @@
     <Compile Include="ResetPasswordForm.Designer.cs">
       <DependentUpon>ResetPasswordForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Users.cs">
+    <Compile Include="UsersForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Users.Designer.cs">
-      <DependentUpon>Users.cs</DependentUpon>
+    <Compile Include="UsersForm.Designer.cs">
+      <DependentUpon>UsersForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SellingForm.cs">
+    <Compile Include="ShoppingForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SellingForm.Designer.cs">
-      <DependentUpon>SellingForm.cs</DependentUpon>
+    <Compile Include="ShoppingForm.Designer.cs">
+      <DependentUpon>ShoppingForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="CategoryForm.resx">
       <DependentUpon>CategoryForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Loader.resx">
-      <DependentUpon>Loader.cs</DependentUpon>
+    <EmbeddedResource Include="LoaderForm.resx">
+      <DependentUpon>LoaderForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductForm.resx">
       <DependentUpon>ProductForm.cs</DependentUpon>
@@ -164,11 +164,11 @@
     <EmbeddedResource Include="ResetPasswordForm.resx">
       <DependentUpon>ResetPasswordForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Users.resx">
-      <DependentUpon>Users.cs</DependentUpon>
+    <EmbeddedResource Include="UsersForm.resx">
+      <DependentUpon>UsersForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SellingForm.resx">
-      <DependentUpon>SellingForm.cs</DependentUpon>
+    <EmbeddedResource Include="ShoppingForm.resx">
+      <DependentUpon>ShoppingForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

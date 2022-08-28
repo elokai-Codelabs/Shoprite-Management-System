@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ShopriteApplication
 {
-    public partial class Users : Form
+    public partial class UsersForm : Form
     {
-        public Users()
+        public UsersForm()
         {
             InitializeComponent();
         }
@@ -58,7 +58,7 @@ namespace ShopriteApplication
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var SellingForm = new SellingForm();
+            var SellingForm = new ShoppingForm();
             SellingForm.Show();
             this.Hide();
         }

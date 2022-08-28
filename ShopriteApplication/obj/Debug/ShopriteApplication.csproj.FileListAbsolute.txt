@@ -5,18 +5,15 @@ C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\bin\Debug\Bu
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\bin\Debug\Guna.UI.dll
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.csproj.AssemblyReference.cache
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.csproj.SuggestedBindingRedirects.cache
-C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.Form1.resources
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.Properties.Resources.resources
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.csproj.GenerateResource.cache
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.csproj.CoreCompileInputs.cache
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.csproj.CopyComplete
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.exe
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.pdb
-C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.Loader.resources
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.CategoryForm.resources
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.ProductForm.resources
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.ResetPasswordForm.resources
-C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.SellingForm.resources
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\bin\Debug\Google.Protobuf.dll
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\bin\Debug\K4os.Compression.LZ4.dll
@@ -40,4 +37,7 @@ C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\bin\Debug\Sy
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\bin\Debug\System.Memory.xml
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.Users.resources
+C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.LoginForm.resources
+C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.LoaderForm.resources
+C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.UsersForm.resources
+C:\Users\ernes\source\repos\ShopriteApplication\ShopriteApplication\obj\Debug\ShopriteApplication.ShoppingForm.resources
