@@ -34,26 +34,26 @@
             this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.gunaShadowPanel1 = new Guna.UI.WinForms.GunaShadowPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.gunaShadowPanel2 = new Guna.UI.WinForms.GunaShadowPanel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.gunaShadowPanel3 = new Guna.UI.WinForms.GunaShadowPanel();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.gunaShadowPanel2 = new Guna.UI.WinForms.GunaShadowPanel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.gunaShadowPanel1 = new Guna.UI.WinForms.GunaShadowPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            this.gunaShadowPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.gunaShadowPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.gunaShadowPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.gunaShadowPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.gunaShadowPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
@@ -112,7 +112,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Bisque;
+            this.panel1.BackColor = System.Drawing.Color.Tomato;
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.gunaShadowPanel3);
             this.panel1.Controls.Add(this.gunaShadowPanel2);
@@ -122,46 +122,67 @@
             this.panel1.Size = new System.Drawing.Size(1085, 724);
             this.panel1.TabIndex = 2;
             // 
-            // gunaShadowPanel1
+            // label7
             // 
-            this.gunaShadowPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaShadowPanel1.BaseColor = System.Drawing.Color.Bisque;
-            this.gunaShadowPanel1.Controls.Add(this.label2);
-            this.gunaShadowPanel1.Controls.Add(this.pictureBox1);
-            this.gunaShadowPanel1.Controls.Add(this.label1);
-            this.gunaShadowPanel1.Location = new System.Drawing.Point(63, 155);
-            this.gunaShadowPanel1.Name = "gunaShadowPanel1";
-            this.gunaShadowPanel1.Radius = 10;
-            this.gunaShadowPanel1.ShadowColor = System.Drawing.Color.Black;
-            this.gunaShadowPanel1.Size = new System.Drawing.Size(296, 178);
-            this.gunaShadowPanel1.TabIndex = 42;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label7.Location = new System.Drawing.Point(97, 71);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(869, 64);
+            this.label7.TabIndex = 44;
+            this.label7.Text = "SHOPRITE MANAGEMENT SYSTEM";
             // 
-            // pictureBox1
+            // gunaShadowPanel3
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(31, 62);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(81, 94);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 42;
-            this.pictureBox1.TabStop = false;
+            this.gunaShadowPanel3.BackColor = System.Drawing.Color.Transparent;
+            this.gunaShadowPanel3.BaseColor = System.Drawing.Color.LightSalmon;
+            this.gunaShadowPanel3.Controls.Add(this.label5);
+            this.gunaShadowPanel3.Controls.Add(this.pictureBox3);
+            this.gunaShadowPanel3.Controls.Add(this.label6);
+            this.gunaShadowPanel3.Location = new System.Drawing.Point(709, 155);
+            this.gunaShadowPanel3.Name = "gunaShadowPanel3";
+            this.gunaShadowPanel3.Radius = 10;
+            this.gunaShadowPanel3.ShadowColor = System.Drawing.Color.Black;
+            this.gunaShadowPanel3.Size = new System.Drawing.Size(296, 178);
+            this.gunaShadowPanel3.TabIndex = 44;
             // 
-            // label2
+            // label5
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(136, 73);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 64);
-            this.label2.TabIndex = 43;
-            this.label2.Text = "NO.";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.Location = new System.Drawing.Point(136, 73);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(121, 64);
+            this.label5.TabIndex = 43;
+            this.label5.Text = "NO.";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(31, 62);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(99, 94);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 42;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(63, 16);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(156, 29);
+            this.label6.TabIndex = 41;
+            this.label6.Text = "PRODUCTS";
             // 
             // gunaShadowPanel2
             // 
             this.gunaShadowPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaShadowPanel2.BaseColor = System.Drawing.Color.Bisque;
+            this.gunaShadowPanel2.BaseColor = System.Drawing.Color.LightSalmon;
             this.gunaShadowPanel2.Controls.Add(this.label3);
             this.gunaShadowPanel2.Controls.Add(this.pictureBox2);
             this.gunaShadowPanel2.Controls.Add(this.label4);
@@ -205,62 +226,41 @@
             this.label4.TabIndex = 41;
             this.label4.Text = "USERS";
             // 
-            // gunaShadowPanel3
+            // gunaShadowPanel1
             // 
-            this.gunaShadowPanel3.BackColor = System.Drawing.Color.Transparent;
-            this.gunaShadowPanel3.BaseColor = System.Drawing.Color.Bisque;
-            this.gunaShadowPanel3.Controls.Add(this.label5);
-            this.gunaShadowPanel3.Controls.Add(this.pictureBox3);
-            this.gunaShadowPanel3.Controls.Add(this.label6);
-            this.gunaShadowPanel3.Location = new System.Drawing.Point(709, 155);
-            this.gunaShadowPanel3.Name = "gunaShadowPanel3";
-            this.gunaShadowPanel3.Radius = 10;
-            this.gunaShadowPanel3.ShadowColor = System.Drawing.Color.Black;
-            this.gunaShadowPanel3.Size = new System.Drawing.Size(296, 178);
-            this.gunaShadowPanel3.TabIndex = 44;
+            this.gunaShadowPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaShadowPanel1.BaseColor = System.Drawing.Color.LightSalmon;
+            this.gunaShadowPanel1.Controls.Add(this.label2);
+            this.gunaShadowPanel1.Controls.Add(this.pictureBox1);
+            this.gunaShadowPanel1.Controls.Add(this.label1);
+            this.gunaShadowPanel1.Location = new System.Drawing.Point(63, 155);
+            this.gunaShadowPanel1.Name = "gunaShadowPanel1";
+            this.gunaShadowPanel1.Radius = 10;
+            this.gunaShadowPanel1.ShadowColor = System.Drawing.Color.Black;
+            this.gunaShadowPanel1.Size = new System.Drawing.Size(296, 178);
+            this.gunaShadowPanel1.TabIndex = 42;
             // 
-            // label5
+            // label2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(136, 73);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(121, 64);
-            this.label5.TabIndex = 43;
-            this.label5.Text = "NO.";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(136, 73);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(121, 64);
+            this.label2.TabIndex = 43;
+            this.label2.Text = "NO.";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // pictureBox3
+            // pictureBox1
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(31, 62);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(99, 94);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 42;
-            this.pictureBox3.TabStop = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(63, 16);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(156, 29);
-            this.label6.TabIndex = 41;
-            this.label6.Text = "PRODUCTS";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(97, 71);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(869, 64);
-            this.label7.TabIndex = 44;
-            this.label7.Text = "SHOPRITE MANAGEMENT SYSTEM";
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(31, 62);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(81, 94);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 42;
+            this.pictureBox1.TabStop = false;
             // 
             // button5
             // 
@@ -292,15 +292,15 @@
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.gunaShadowPanel1.ResumeLayout(false);
-            this.gunaShadowPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.gunaShadowPanel2.ResumeLayout(false);
-            this.gunaShadowPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.gunaShadowPanel3.ResumeLayout(false);
             this.gunaShadowPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.gunaShadowPanel2.ResumeLayout(false);
+            this.gunaShadowPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.gunaShadowPanel1.ResumeLayout(false);
+            this.gunaShadowPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
